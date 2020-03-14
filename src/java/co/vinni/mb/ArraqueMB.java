@@ -17,6 +17,10 @@ import javax.inject.Named;
  */
 @Named(value = "arraqueMB")
 @RequestScoped
+
+
+
+
 public class ArraqueMB {
 
     /**

@@ -15,6 +15,15 @@ import javax.inject.Named;
  */
 @Named(value = "otraBean")
 @RequestScoped
+import javax.inject.Named;
+import javax.enterprise.context.Dependent;
+
+/**
+ *
+ * @author Sala 30
+ */
+@Named(value = "otraBean")
+@Dependent
 public class OtraBean {
 
     /**
