@@ -9,6 +9,8 @@ public class Vehiculo {
     private int modelo;
     private String linea;
     private Propietario prop;
+    private String valor;
+    
     
 
     public String getMarca() {
@@ -41,6 +43,14 @@ public class Vehiculo {
 
     public void setProp(Propietario prop) {
         this.prop = prop;
+    }
+
+    public String getValor() {
+        return valor;
+    }
+
+    public void setValor(String valor) {
+        this.valor = valor;
     }
     
     
