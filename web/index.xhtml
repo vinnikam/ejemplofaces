@@ -19,6 +19,18 @@
  
             
         </p:panel>
+       <p:panel id="custom" header="Custom Actions" style="margin-bottom:20px">
+        <h:panelGrid columns="2" cellpadding="10">
+                <p:graphicImage name="demo/images/godfather/godfather3.jpg" />
+                <h:outputText value="Esto Es una prueba." />
+            </h:panelGrid>
+ 
+        <f:facet name="actions">
+            <h:commandLink styleClass="ui-panel-titlebar-icon ui-corner-all ui-state-default"><h:outputText styleClass="ui-icon pi pi-question" /></h:commandLink>
+            <h:commandLink styleClass="ui-panel-titlebar-icon ui-corner-all ui-state-default"><h:outputText styleClass="ui-icon pi pi-star" /></h:commandLink>
+        </f:facet>
+    </p:panel>
+
         </h:form>
     </h:body>
 </html>

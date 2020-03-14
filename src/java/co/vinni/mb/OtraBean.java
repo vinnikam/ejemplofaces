@@ -5,6 +5,16 @@
  */
 package co.vinni.mb;
 
+import javax.faces.bean.RequestScoped;
+import javax.inject.Named;
+
+
+/**
+ *
+ * @author Sala 30
+ */
+@Named(value = "otraBean")
+@RequestScoped
 import javax.inject.Named;
 import javax.enterprise.context.Dependent;
 

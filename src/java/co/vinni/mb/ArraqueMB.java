@@ -7,15 +7,20 @@ package co.vinni.mb;
 
 import co.vinni.dao.OperacionVeh;
 import co.vinni.dto.Vehiculo;
+import javax.faces.bean.RequestScoped;
 import javax.inject.Named;
-import javax.enterprise.context.Dependent;
+
 
 /**
  *
  * @author Sala 30
  */
 @Named(value = "arraqueMB")
-@Dependent
+@RequestScoped
+
+
+
+
 public class ArraqueMB {
 
     /**
